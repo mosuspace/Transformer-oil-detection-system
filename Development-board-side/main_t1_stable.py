@@ -1,3 +1,8 @@
+# -*- coding:utf-8 -*-
+"""
+作者：刘墨苏
+"""
+
 from PyQt5.QtWidgets import QApplication, QGraphicsScene, QWidget
 from PyQt5.QtCore import QObject, QFile  # 在Qt中QObject是所有类的基类，换而言之是在Qt中所有的类均继承自QObject，这使得QObject中的所有方法在其它类中使用。
 from PyQt5.QtGui import QIcon  # 给你的程序加一个图标
