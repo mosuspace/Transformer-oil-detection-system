@@ -191,9 +191,9 @@ class MainWindow(QWidget):
     # 数据库下载
     def datasyn(self):
         # 服务器连接信息
-        host_name = '1.116.165.17'
-        user_name = 'root'
-        password = 'Liu@2001'
+        host_name = '服务器公网ip'
+        user_name = '用户名'
+        password = '密码'
         port = 22
         # 远程文件路径（需要绝对路径）
         remote_dir = '/home/serve/testdata.db'
