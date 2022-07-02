@@ -1,4 +1,8 @@
-# 串口数据接收、
+# -*- coding:utf-8 -*-
+"""
+作者：刘墨苏
+"""
+
 import binascii
 import serial
 import time
@@ -144,16 +148,6 @@ class Data(object):
         del list_2[0:9]     # 删除前面的共同像素
         del list_2[-1]      # 删除后面的结束标志像素
         list_3 = self.function(list_2)
-
-        # 2022年4月20日15:18:34，开始对原项目进行加工
-        # 把处理好的检测变压油数据进行再次处理（数据库格式预处理、JSON格式化）
         return list_3
 
 
-
-
-
-
-"""mosu = Data()
-list = mosu.zhixing()
-print(list)"""
